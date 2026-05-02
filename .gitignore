@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+kaggle.json
+*.key
+*.pem
+*.token
+
+# Raw and processed data
+data/raw/
+data/cleaned/
+data/splits/
+data/annotations/
+*.zip
+*.tar
+*.tar.gz
+
+# Model artifacts
+outputs/models/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.pkl
+*.joblib
+
+# Row-level or quote-bearing generated outputs
+outputs/tables/*predictions*.csv
+outputs/tables/document_topics.csv
+outputs/tables/error_cases.csv
+outputs/tables/topic_summary.csv
+outputs/tables/teaching_improvement_matrix.csv
+outputs/reports/error_analysis.md
+outputs/reports/experiment_summary.md
+outputs/reports/publication_ready_results.md
+
+# Accidental shell artifacts
+/=
+/positive
+/neutral
+/negative
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,9 @@
+label_type,label,count,source,notes
+3class,positive,112248,kaggle_100k_label,
+3class,neutral,5725,kaggle_100k_label,
+3class,negative,5266,kaggle_100k_label,
+5class,Very Positive,91545,kaggle_100k_label,
+5class,Positive,20703,kaggle_100k_label,
+5class,Neutral,5725,kaggle_100k_label,
+5class,Very Negative,2774,kaggle_100k_label,
+5class,Negative,2492,kaggle_100k_label,

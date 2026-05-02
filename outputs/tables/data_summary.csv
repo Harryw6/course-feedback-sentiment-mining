@@ -1,0 +1,4 @@
+mode,dataset_id,source_platform,license,license_status,raw_rows_loaded,cleaned_rows_used,sentiment_source,sentiment_available
+full,septa97/100k-courseras-course-reviews-dataset,Kaggle,"Database: Open Database, Contents: Database Contents",explicit_on_source_page,140320,123239,kaggle_100k_label,True
+full,imuhammad/course-reviews-on-coursera,Kaggle,GPL 2,explicit_on_source_page,1454711,52387,kaggle_100k_label,True
+full,chillies/course-review-multilabel-sentiment-analysis,Hugging Face,Not specified on the Hugging Face dataset card metadata available at download time.,warning_license_not_explicit,8208,8152,kaggle_100k_label,True

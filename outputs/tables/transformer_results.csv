@@ -1,0 +1,4 @@
+model,status,accuracy,precision_macro,recall_macro,macro_f1,weighted_f1,train_rows,val_rows,test_rows,epochs,device,runtime_seconds,notes
+distilbert-base-uncased,run,0.766793711291091,0.7373280779924666,0.7332859322017496,0.7351261087898638,0.7660314689186583,12694,2099,4198,2,cuda:4,16.25,Fine-tuned locally with Hugging Face Trainer on balanced Kaggle 100K sentiment subset.
+bert-base-uncased,run,0.7713196760362078,0.7431395064168536,0.738016911548207,0.74017546811246,0.7711345325996678,12694,2099,4198,2,cuda:4,27.08,Fine-tuned locally with Hugging Face Trainer on balanced Kaggle 100K sentiment subset.
+roberta-base,run,0.792282039066222,0.7655077903014839,0.7597174863252011,0.7622769804399313,0.7913292556146397,12694,2099,4198,2,cuda:4,27.15,Fine-tuned locally with Hugging Face Trainer on balanced Kaggle 100K sentiment subset.

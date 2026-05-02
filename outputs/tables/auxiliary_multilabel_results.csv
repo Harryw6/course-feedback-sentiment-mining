@@ -1,0 +1,2 @@
+model,status,micro_f1,macro_f1,hamming_loss,subset_accuracy,notes
+TF-IDF + One-vs-Rest Logistic Regression,run,0.6871189773844641,0.49987774599304785,0.10838612984535731,0.4451256897608829,

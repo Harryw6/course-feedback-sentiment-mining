@@ -1,0 +1,8 @@
+experiment,status,metric,value,accuracy,precision_macro,recall_macro,macro_f1,weighted_f1,train_rows,test_rows,notes
+3class_random_split_unigram_bigram,run,macro_f1,0.5369851573576475,0.82825,0.4993093670011812,0.6484073223048673,0.5369851573576475,0.8624355936934186,64000,16000,Executed with TF-IDF + Logistic Regression; rating was not used as a feature.
+5class_random_split_unigram_bigram,run,macro_f1,0.367389388151952,0.641,0.3437014389082759,0.42785783638943026,0.367389388151952,0.6767753292538699,64000,16000,Executed with TF-IDF + Logistic Regression; rating was not used as a feature.
+3class_random_split_unigram,run,macro_f1,0.52647214353115,0.8145625,0.49014506576237443,0.6489951435866278,0.52647214353115,0.8535750881387394,64000,16000,Executed with TF-IDF + Logistic Regression; rating was not used as a feature.
+3class_course_holdout_split,run,macro_f1,0.510405897179043,0.83267366488843,0.4745659063157755,0.6188012399253233,0.510405897179043,0.8662532591347498,62567,17433,Executed with TF-IDF + Logistic Regression; rating was not used as a feature.
+with_topic_features,not_run,macro_f1,,,,,,,0,0,Topic-feature classifier was documented but not run because topic assignments are generated after supervised splits.
+kaggle_100k_only,run,macro_f1,0.5369851573576475,0.82825,0.4993093670011812,0.6484073223048673,0.5369851573576475,0.8624355936934186,64000,16000,Executed with TF-IDF + Logistic Regression; rating was not used as a feature.
+kaggle_145m_weak_label_sample,run,macro_f1,0.5100582030057685,0.8657186485970605,0.4696851558186413,0.6278273987029748,0.5100582030057685,0.8942741806655075,41909,10478,Executed with TF-IDF + Logistic Regression; rating was not used as a feature. Weak-label rows used: 52387 of 52387.
